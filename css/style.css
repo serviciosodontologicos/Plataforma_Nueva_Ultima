@@ -966,7 +966,7 @@ canvas{
 }
 
 .brand-logo-img:hover{
-    border-color: transparent;
+    border-color: #103bf0cc;
     box-shadow: 0 20px 40px rgba(0,0,0,.2);
 }
 
