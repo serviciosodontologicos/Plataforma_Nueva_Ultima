@@ -2,6 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37ab656d-312c-4583-aa2c-af0107aa5a52" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/images/home/IMAGEN DOCTOR.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logos_empresa/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logos_empresa/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logos_empresa/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logos_empresa/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logos_empresa/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/logos_empresa/6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -58,13 +66,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="48" />
-          <entry key="html" value="507" />
+          <entry key="html" value="508" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="48" />
-          <entry key="HTML" value="507" />
+          <entry key="HTML" value="508" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -91,8 +99,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="647" column="33" selection-start-line="647" selection-start-column="33" selection-end-line="647" selection-end-column="33" />
+            <state relative-caret-position="293">
+              <caret line="242" column="56" selection-start-line="242" selection-start-column="56" selection-end-line="242" selection-end-column="56" />
               <folding>
                 <element signature="n#style#0;n#div#2;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h2#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -111,11 +119,6 @@
               <caret line="124" column="105" selection-start-line="124" selection-start-column="99" selection-end-line="124" selection-end-column="105" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/logos_empresa/protegemos.png">
-          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -164,8 +167,8 @@
       <find>clientes</find>
       <find>descu</find>
       <find>inicio</find>
-      <find>Nuestros Clientes</find>
       <find>310</find>
+      <find>Nuestros Clientes</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -212,6 +215,17 @@
             <path>
               <item name="Plataforma_Nueva_Ultima" type="b2602c69:ProjectViewProjectNode" />
               <item name="Plataforma_Nueva_Ultima" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Plataforma_Nueva_Ultima" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Plataforma_Nueva_Ultima" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="logos_empresa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Plataforma_Nueva_Ultima" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Plataforma_Nueva_Ultima" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -230,10 +244,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\LENOVO\Desktop\WILLIAM\Plataforma_Nueva_Ultima\images\logos_empresa" />
+      <recent name="C:\Users\LENOVO\Desktop\WILLIAM\Plataforma_Nueva_Ultima\images\home" />
       <recent name="C:\Users\LENOVO\Desktop\WILLIAM\Plataforma_Nueva_Ultima\pages" />
       <recent name="C:\Users\LENOVO\Desktop\WILLIAM\Plataforma_Nueva_Ultima\favicon" />
-      <recent name="C:\Users\LENOVO\Desktop\WILLIAM\Plataforma_Nueva_Ultima\images\home" />
-      <recent name="C:\Users\LENOVO\Desktop\WILLIAM\Plataforma_Nueva_Ultima\images\logos_empresa" />
       <recent name="C:\Users\LENOVO\Desktop\WILLIAM\Plataforma_Nueva_Ultima\images\servicios" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -264,18 +278,18 @@
       <option name="presentableId" value="Default" />
       <updated>1542947358096</updated>
       <workItem from="1542947361968" duration="14759000" />
-      <workItem from="1543097929243" duration="17410000" />
+      <workItem from="1543097929243" duration="18415000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32169000" />
+    <option name="totallyTimeSpent" value="33174000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.034200743" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19405204" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -379,8 +393,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="647" column="33" selection-start-line="647" selection-start-column="33" selection-end-line="647" selection-end-column="33" />
+        <state relative-caret-position="293">
+          <caret line="242" column="56" selection-start-line="242" selection-start-column="56" selection-end-line="242" selection-end-column="56" />
           <folding>
             <element signature="n#style#0;n#div#2;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h2#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
