@@ -58,6 +58,10 @@ NB: This is the responsive stylesheet of this theme.
     .socials {
         padding-top: 3%;
     }
+    .logo_principal{
+        width: 190PX !important;
+        height: 40px !important;
+    }
 
 }
 
@@ -216,6 +220,11 @@ NB: This is the responsive stylesheet of this theme.
         margin-bottom: 30px;
     }
 
+    .logo_principal{
+        width: 190PX !important;
+        height: 40px !important;
+    }
+
 
 
 }
@@ -238,6 +247,11 @@ NB: This is the responsive stylesheet of this theme.
 
     .contact-area {
         background-position: inherit;
+    }
+
+    .logo_principal{
+        width: 190PX !important;
+        height: 40px !important;
     }
 
 

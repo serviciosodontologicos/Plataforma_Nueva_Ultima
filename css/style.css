@@ -702,7 +702,7 @@ canvas{
 	position: relative;
 	text-align: center;
 	cursor: pointer;
-	background: rgba(233,30,99,0.9);
+    background: rgba(30, 90, 233, 0.9);
 }
 
 .hovereffect .overlay {

@@ -1,4 +1,8 @@
 .logo_principal{
-    width: 10% !important;
-
+    width: 216PX !important;
+    height: 70px !important;
+    margin-top: -21px;
+    box-sizing: border-box;
 }
+
+
