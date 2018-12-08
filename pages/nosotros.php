@@ -85,7 +85,7 @@
     <div class="aba-whatsphone_dos">
         <div class="aba-whatsphone-icone_dos">
             <!--https://web.whatsapp.com/send?phone=573105760051&text=Hola%22-->
-            <a target="_top" href="../index.html"><strong>Inicio</strong></a>
+            <a target="_top" href="../index.php"><strong>Inicio</strong></a>
         </div>
     </div>
 </div>
@@ -131,7 +131,7 @@
                         <div class="navbar-collapse collapse">
                             <nav>
                                 <ul class="nav navbar-nav navbar-right">
-                                    <li class="active"><a class="smooth-menu" href="../index.html">Inicio</a></li>
+                                    <li class="active"><a class="smooth-menu" href="../index.php">Inicio</a></li>
                                     <li><a class="smooth-menu" href="#about">Clientes</a></li>
                                     <li><a class="smooth-menu" href="#services">Beneficios</a></li>
                                     <li><a class="smooth-menu" href="#portfolio">Servicios</a></li>
