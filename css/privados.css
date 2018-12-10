@@ -1,10 +1,9 @@
-.logo_principal{
+.logo_principal {
     width: 216PX !important;
     height: 70px !important;
     margin-top: -21px;
     box-sizing: border-box;
 }
-
 
 /*boton de whatsappp*/
 .fixed-tabs-Whats {
@@ -14,6 +13,7 @@
     margin-top: -170px;
     z-index: 100;
 }
+
 .aba-whatsphone {
     background: #0f62ac;
     height: 60px;
@@ -21,10 +21,12 @@
     border-radius: 30px 0 0 30px;
     transition: 0.7s ease;
 }
+
 .aba-whatsphone:hover {
     width: 280px;
     transition: 0.7s ease;
 }
+
 .aba-whatsphone-icone {
     background: url(http://encantosdopero.com.br/wp-content/uploads/2016/02/whatsapp-icon.png) no-repeat; /* whatsapp icon */
     width: 280px;
@@ -32,6 +34,7 @@
     background-position-y: -7px;
     padding: 7px;
 }
+
 .aba-whatsphone-icone a {
     color: #ffffff;
     font-size: 14px;
@@ -41,12 +44,12 @@
     height: 60px;
     font-family: sans-serif;
 }
+
 .aba-whatsphone-icone a strong {
     display: block;
     font-size: 21px;
     margin-left: 70px;
 }
-
 
 /*nuevos botones*/
 .fixed-tabs-Whats_dos {
@@ -56,6 +59,7 @@
     margin-top: -170px;
     z-index: 100;
 }
+
 .aba-whatsphone_dos {
     background: #0f62ac;
     height: 60px;
@@ -63,10 +67,12 @@
     border-radius: 30px 0 0 30px;
     transition: 0.7s ease;
 }
+
 .aba-whatsphone_dos:hover {
     width: 280px;
     transition: 0.7s ease;
 }
+
 .aba-whatsphone-icone_dos {
     background: url(https://images.vexels.com/media/users/3/135263/isolated/preview/b26ee4099ae2550f79e65e41843a9198-web-home-flat-sign-by-vexels.png) no-repeat; /* whatsapp icon */
     width: 280px;
@@ -74,6 +80,7 @@
     background-position-y: -7px;
     padding: 7px;
 }
+
 .aba-whatsphone-icone_dos a {
     color: #ffffff;
     font-size: 14px;
@@ -83,15 +90,14 @@
     height: 60px;
     font-family: sans-serif;
 }
+
 .aba-whatsphone-icone_dos a strong {
     display: block;
     font-size: 21px;
     margin-left: 70px;
 }
 
-
 /*tercer boton*/
-
 
 .fixed-tabs-Whats_tres {
     position: fixed;
@@ -100,6 +106,7 @@
     margin-top: -170px;
     z-index: 100;
 }
+
 .aba-whatsphone_tres {
     background: #0f62ac;
     height: 60px;
@@ -107,17 +114,20 @@
     border-radius: 30px 0 0 30px;
     transition: 0.7s ease;
 }
+
 .aba-whatsphone_tres:hover {
     width: 280px;
     transition: 0.7s ease;
 }
-.aba-whatsphone-icone_tres{
+
+.aba-whatsphone-icone_tres {
     background: url(../images/publicicdad/wpforms-brands.svg) no-repeat; /* whatsapp icon */
     width: 280px;
     background-size: 70px;
     background-position-y: -7px;
     padding: 7px;
 }
+
 .aba-whatsphone-icone_tres a {
     color: #ffffff;
     font-size: 14px;
@@ -127,21 +137,21 @@
     height: 60px;
     font-family: sans-serif;
 }
+
 .aba-whatsphone-icone_tres a strong {
     display: block;
     font-size: 21px;
     margin-left: 70px;
 }
 
-
 /*tercer boton*/
 
 /********************************************/
-#boton {background: red;
+#boton {
+    background: red;
     float: left;
     position: absolute;
 }
-
 
 /********************nostros*/
 @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
@@ -159,16 +169,19 @@ figure.snip1321 {
     -webkit-perspective: 50em;
     perspective: 50em;
 }
+
 figure.snip1321 * {
     -webkit-box-sizing: padding-box;
     box-sizing: padding-box;
-    -webkit-transition: all 0.2s ;
-    transition: all 0.2s ;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
 }
+
 figure.snip1321 img {
     max-width: 100%;
     vertical-align: top;
 }
+
 figure.snip1321 figcaption {
     top: 50%;
     left: 20px;
@@ -177,20 +190,25 @@ figure.snip1321 figcaption {
     opacity: 0;
     z-index: 1;
 }
+
 figure.snip1321 h2,
 figure.snip1321 h4 {
     margin: 0;
 }
+
 figure.snip1321 h2 {
     font-weight: 600;
 }
+
 figure.snip1321 h4 {
     font-weight: 400;
     text-transform: uppercase;
 }
+
 figure.snip1321 i {
     font-size: 32px;
 }
+
 figure.snip1321:after {
     background-color: #ffffff;
     position: absolute;
@@ -209,6 +227,7 @@ figure.snip1321:after {
     transform-origin: 50% 50%;
     opacity: 0;
 }
+
 figure.snip1321 a {
     left: 0;
     right: 0;
@@ -217,6 +236,7 @@ figure.snip1321 a {
     position: absolute;
     z-index: 1;
 }
+
 figure.snip1321:hover figcaption,
 figure.snip1321.hover figcaption {
     -webkit-transform: translateY(-50%);
@@ -225,10 +245,110 @@ figure.snip1321.hover figcaption {
     -webkit-transition-delay: 0.2ms;
     transition-delay: 0.2ms;
 }
+
 figure.snip1321:hover:after,
 figure.snip1321.hover:after {
     -webkit-transform: rotateX(0);
     transform: rotateX(0);
     opacity: 0.9;
 }
-/********************nosotros*/
+
+/********************mapas*/
+/* Click the image one by one to see the different layout */
+
+/* Owl Carousel */
+
+.owl-prev {
+    background: url('https://res.cloudinary.com/milairagny/image/upload/v1487938188/left-arrow_rlxamy.png') left center no-repeat;
+    height: 54px;
+    position: absolute;
+    top: 50%;
+    width: 27px;
+    z-index: 1000;
+    left: 2%;
+    cursor: pointer;
+    color: transparent;
+    margin-top: -27px;
+}
+
+.owl-next {
+    background: url('https://res.cloudinary.com/milairagny/image/upload/v1487938220/right-arrow_zwe9sf.png') right center no-repeat;
+    height: 54px;
+    position: absolute;
+    top: 50%;
+    width: 27px;
+    z-index: 1000;
+    right: 2%;
+    cursor: pointer;
+    color: transparent;
+    margin-top: -27px;
+}
+
+.owl-prev:hover,
+.owl-next:hover {
+    opacity: 0.5;
+}
+
+/* Owl Carousel */
+
+/* Popup Text */
+
+.white-popup-block {
+    background: #FFF;
+    padding: 20px 30px;
+    text-align: left;
+    max-width: 650px;
+    margin: 40px auto;
+    position: relative;
+}
+
+.popuptext {
+    display: table;
+}
+
+.popuptext p {
+    margin-bottom: 10px;
+}
+
+.popuptext span {
+    font-weight: bold;
+    float: right;
+}
+
+/* Popup Text */
+
+/* Icon CSS */
+.item {
+    position: relative;
+}
+
+.item i {
+    display: none;
+    font-size: 4rem;
+    color: #FFF;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.item a {
+    display: block;
+    width: 100%;
+}
+
+.item a:hover:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+.item a:hover i {
+    display: block;
+    z-index: 2;
+}

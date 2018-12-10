@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37ab656d-312c-4583-aa2c-af0107aa5a52" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/js/privados.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/ninja-slider.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/privados.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/privados.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/publicicdad/publicidad 1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/publicicdad/publicidad 2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/publicicdad/publicidad 3.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/ninja-slider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/nosotros.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/nosotros.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -145,6 +140,7 @@
           <entry key="Procfile" value="1" />
           <entry key="css" value="2" />
           <entry key="html" value="1" />
+          <entry key="js" value="2" />
           <entry key="php" value="1" />
         </counts>
       </usages-collector>
@@ -152,20 +148,21 @@
         <counts>
           <entry key="CSS" value="2" />
           <entry key="HTML" value="1" />
+          <entry key="JavaScript" value="2" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="92" />
-          <entry key="html" value="192" />
+          <entry key="css" value="107" />
+          <entry key="html" value="348" />
           <entry key="php" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="92" />
-          <entry key="HTML" value="192" />
+          <entry key="CSS" value="107" />
+          <entry key="HTML" value="348" />
           <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
@@ -176,8 +173,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="637" column="6" selection-start-line="637" selection-start-column="6" selection-end-line="637" selection-end-column="6" />
+            <state relative-caret-position="238">
+              <caret line="884" column="6" selection-start-line="884" selection-start-column="6" selection-end-line="884" selection-end-column="6" />
               <folding>
                 <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -185,8 +182,26 @@
                 <element signature="n#style#0;n#div#2;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#i#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#i#1;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#span#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h2#0;n#a#0;n#span#0;n#div#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#h2#0;n#a#0;n#span#0;n#div#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h2#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#h2#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#0;n#div#11;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/main.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/privados.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -203,8 +218,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/privados.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="234" selection-start-line="234" selection-end-line="234" />
+            <state relative-caret-position="693">
+              <caret line="353" column="1" selection-start-line="353" selection-start-column="1" selection-end-line="353" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -212,8 +227,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-21020">
-              <caret line="367" column="25" selection-start-line="367" selection-start-column="22" selection-end-line="367" selection-end-column="25" />
+            <state relative-caret-position="254">
+              <caret line="349" selection-start-line="349" selection-end-line="349" />
             </state>
           </provider>
         </entry>
@@ -235,7 +250,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/responsive.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
+            <state relative-caret-position="-1528">
               <caret line="234" lean-forward="true" selection-start-line="234" selection-end-line="234" />
             </state>
           </provider>
@@ -247,12 +262,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>nosotros</find>
       <find>blanqui</find>
       <find>Contacto</find>
       <find>clientes</find>
@@ -274,14 +289,15 @@
       <find>Carné De Privilegios</find>
       <find>box-shadow</find>
       <find>home</find>
-      <find>navbar-brand</find>
-      <find>ruby</find>
       <find>nues</find>
       <find>Nuetros Servicios</find>
-      <find>url</find>
       <find>portfolio</find>
       <find>services</find>
+      <find>navbar-brand</find>
       <find>testimonial</find>
+      <find>url</find>
+      <find>ruby</find>
+      <find>desc</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -296,8 +312,9 @@
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/pages/nosotros.html" />
-        <option value="$PROJECT_DIR$/css/privados.css" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/css/privados.css" />
+        <option value="$PROJECT_DIR$/js/privados.js" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -354,16 +371,16 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Kernel_linux\Desktop\PRESENTAR PROYECTO A WILLIAMS\mason-personal-portfolio-html-template\PAGINA_WEB_SERVICIOS_ODONTOLOGICOS\images\inicio" />
-      <recent name="C:\Users\Kernel_linux\Desktop\PRESENTAR PROYECTO A WILLIAMS\mason-personal-portfolio-html-template\PAGINA_WEB_SERVICIOS_ODONTOLOGICOS\images\home" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Kernel_linux\Desktop\ENTREGA FINAL WILLY\Plataforma_Nueva_Ultima\images\publicicdad" />
       <recent name="C:\Users\Kernel_linux\Desktop\ENTREGA FINAL WILLY\Plataforma_Nueva_Ultima\js" />
       <recent name="C:\Users\Kernel_linux\Desktop\ENTREGA FINAL WILLY\Plataforma_Nueva_Ultima\css" />
       <recent name="C:\Users\LENOVO\Desktop\WILLIAM\Plataforma_Nueva_Ultima\images\publicicdad" />
       <recent name="C:\Users\LENOVO\Desktop\WILLIAM\Plataforma_Nueva_Ultima\images\home" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Kernel_linux\Desktop\PRESENTAR PROYECTO A WILLIAMS\mason-personal-portfolio-html-template\PAGINA_WEB_SERVICIOS_ODONTOLOGICOS\images\inicio" />
+      <recent name="C:\Users\Kernel_linux\Desktop\PRESENTAR PROYECTO A WILLIAMS\mason-personal-portfolio-html-template\PAGINA_WEB_SERVICIOS_ODONTOLOGICOS\images\home" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -394,12 +411,12 @@
       <workItem from="1543891323156" duration="596000" />
       <workItem from="1543979865424" duration="3783000" />
       <workItem from="1544297397738" duration="3344000" />
-      <workItem from="1544380902478" duration="8797000" />
+      <workItem from="1544380902478" duration="12266000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61615000" />
+    <option name="totallyTimeSpent" value="65084000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -516,10 +533,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/responsive.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
+        <state relative-caret-position="-1528">
           <caret line="234" lean-forward="true" selection-start-line="234" selection-end-line="234" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="349" selection-start-line="349" selection-end-line="349" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/nosotros.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -535,22 +562,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/privados.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="234" selection-start-line="234" selection-end-line="234" />
+        <state relative-caret-position="693">
+          <caret line="353" column="1" selection-start-line="353" selection-start-column="1" selection-end-line="353" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/js/privados.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-21020">
-          <caret line="367" column="25" selection-start-line="367" selection-start-column="22" selection-end-line="367" selection-end-column="25" />
+        <state relative-caret-position="450">
+          <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="637" column="6" selection-start-line="637" selection-start-column="6" selection-end-line="637" selection-end-column="6" />
+        <state relative-caret-position="238">
+          <caret line="884" column="6" selection-start-line="884" selection-start-column="6" selection-end-line="884" selection-end-column="6" />
           <folding>
             <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -558,7 +585,11 @@
             <element signature="n#style#0;n#div#2;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#i#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#i#1;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#span#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#a#0;n#span#0;n#div#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#h2#0;n#a#0;n#span#0;n#div#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#h2#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#10;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#0;n#div#11;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
