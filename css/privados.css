@@ -162,8 +162,8 @@ figure.snip1321 {
 figure.snip1321 * {
     -webkit-box-sizing: padding-box;
     box-sizing: padding-box;
-    -webkit-transition: all 0.2s ease-out;
-    transition: all 0.2s ease-out;
+    -webkit-transition: all 0.2s ;
+    transition: all 0.2s ;
 }
 figure.snip1321 img {
     max-width: 100%;
@@ -200,8 +200,8 @@ figure.snip1321:after {
     left: 20px;
     right: 20px;
     bottom: 20px;
-    -webkit-transition: all 0.4s ease-in-out;
-    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.2ms ease-in-out;
+    transition: all 0.2ms ease-in-out;
     -webkit-transform: rotateX(-90deg);
     transform: rotateX(-90deg);
     -webkit-transform-origin: 50% 50%;
@@ -222,8 +222,8 @@ figure.snip1321.hover figcaption {
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
     opacity: 1;
-    -webkit-transition-delay: 0.2s;
-    transition-delay: 0.2s;
+    -webkit-transition-delay: 0.2ms;
+    transition-delay: 0.2ms;
 }
 figure.snip1321:hover:after,
 figure.snip1321.hover:after {
