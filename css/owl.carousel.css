@@ -64,7 +64,7 @@
   .owl-carousel .owl-nav button.owl-prev,
   .owl-carousel .owl-nav button.owl-next,
   .owl-carousel button.owl-dot {
-    background: none;
+    background: #0f62ac;
     color: inherit;
     border: none;
     padding: 0 !important;
