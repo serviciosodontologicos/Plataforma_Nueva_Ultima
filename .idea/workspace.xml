@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37ab656d-312c-4583-aa2c-af0107aa5a52" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/owl.carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/owl.carousel.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/privados.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/privados.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/publicicdad/publicidad_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/publicicdad/publicidad_1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/publicicdad/publicidad_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/publicicdad/publicidad_2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/privados.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/privados.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/nosotros.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/nosotros.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/nosotros.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/nosotros.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -163,7 +156,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="162" />
-          <entry key="html" value="582" />
+          <entry key="html" value="591" />
           <entry key="js" value="25" />
           <entry key="php" value="3" />
         </counts>
@@ -171,7 +164,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="162" />
-          <entry key="HTML" value="582" />
+          <entry key="HTML" value="591" />
           <entry key="JavaScript" value="25" />
           <entry key="PLAIN_TEXT" value="3" />
         </counts>
@@ -231,8 +224,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/nosotros.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="295" column="9" selection-start-line="295" selection-start-column="9" selection-end-line="295" selection-end-column="9" />
+            <state relative-caret-position="465">
+              <caret line="349" column="40" selection-start-line="349" selection-start-column="40" selection-end-line="349" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -417,12 +410,12 @@
       <workItem from="1544583354535" duration="3068000" />
       <workItem from="1544611634976" duration="403000" />
       <workItem from="1544669388901" duration="780000" />
-      <workItem from="1544753916661" duration="3328000" />
+      <workItem from="1544753916661" duration="4121000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75885000" />
+    <option name="totallyTimeSpent" value="76678000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -585,8 +578,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/nosotros.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="295" column="9" selection-start-line="295" selection-start-column="9" selection-end-line="295" selection-end-column="9" />
+        <state relative-caret-position="465">
+          <caret line="349" column="40" selection-start-line="349" selection-start-column="40" selection-end-line="349" selection-end-column="40" />
         </state>
       </provider>
     </entry>
