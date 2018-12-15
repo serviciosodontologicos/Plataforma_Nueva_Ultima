@@ -722,3 +722,20 @@ h1.heading {
     }
 
 }
+
+
+
+/*codigo para estilos de letras*/
+
+.color-servicios{
+
+    color:  #0f62ac;
+    text-align: center;
+
+}
+
+
+.texto_centrado{
+    margin-top: 69px !important;
+    text-align: center;
+}

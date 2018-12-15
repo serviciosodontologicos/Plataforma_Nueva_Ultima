@@ -245,7 +245,12 @@ img {
 
 .nav-area.sticky_navigation{
     background: #ffffff;
-    height: 80px;
+    height: 89px;
+    margin-top: 10px;
+
+
+
+
 }
 
 .navbar-nav {
@@ -273,7 +278,7 @@ img {
 }
 
 .sticky_navigation .nav li a {
-    color: #333333;
+    color: #0f62ac;;
 }
 
 .sticky_navigation .nav li.active a{
