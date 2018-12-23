@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="37ab656d-312c-4583-aa2c-af0107aa5a52" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/css/privados.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/privados.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="37ab656d-312c-4583-aa2c-af0107aa5a52" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -274,7 +271,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/privados.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="297">
@@ -283,7 +280,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
@@ -351,8 +348,8 @@
       <find>sticky_navigation</find>
       <find>url</find>
       <find>banner-area</find>
-      <find>smooth-menu</find>
       <find>inicio</find>
+      <find>smooth-menu</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -496,12 +493,12 @@
       <workItem from="1544888938925" duration="11231000" />
       <workItem from="1545278663368" duration="1302000" />
       <workItem from="1545361732485" duration="3377000" />
-      <workItem from="1545527861414" duration="3779000" />
+      <workItem from="1545527861414" duration="4385000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97405000" />
+    <option name="totallyTimeSpent" value="98011000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -695,13 +692,6 @@
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="371" column="1" selection-start-line="371" selection-start-column="1" selection-end-line="371" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -719,6 +709,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="744" lean-forward="true" selection-start-line="744" selection-end-line="744" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="371" column="1" selection-start-line="371" selection-start-column="1" selection-end-line="371" selection-end-column="12" />
         </state>
       </provider>
     </entry>
