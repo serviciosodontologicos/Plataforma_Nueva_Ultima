@@ -10,7 +10,7 @@ $(document).ready(function () {
 
 	//********** menu background color change while scroll
 
-	// se borra por que no se quiere 
+	// se borra por que no se quiere
 	// $(window).on('scroll', function () {
 	// 	var menu_area = $('.nav-area');
 	// 	if ($(window).scrollTop() > 200) {
