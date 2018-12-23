@@ -742,19 +742,3 @@ h1.heading {
 
 
 /*navbar hover efecto sobre las palabras*/
-.link-1 {
-    transition: 0.3s ease;
-    background: #fff;
-    color: #ffffff;
-    font-size: 14px;
-    text-decoration: none;
-    border-top: 1px solid #3fa46a;
-    border-bottom: 1px solid #3fa46a;
-    padding: 20px 0;
-    margin: 4px 2px;
-}
-.link-1:hover {
-    border-top: 4px solid #ffffff;
-    border-bottom: 4px solid #ffffff;
-    padding: 6px 0;
-}
