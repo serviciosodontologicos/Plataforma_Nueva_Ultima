@@ -78,8 +78,8 @@
         <div class="aba-whatsphone-icone_tres">
             <!--https://web.whatsapp.com/send?phone=573105760051&text=Hola%22-->
             <img class="carta_img" src="images/inicio/carta%2045x45.png" alt="">
-            <a target="_top" href="#carta"><strong>
-                Dejanos un Mensaje</strong></a>
+            <a class="carta_personalizada" target="_top" href="#carta"><h5 style="color: #0f62ac">
+                Dejanos un Mensaje</h5></a>
         </div>
     </div>
 </div>
@@ -196,7 +196,22 @@
 </div>
 
 <!--Banner area ends-->
+<!--imagen corporativa-->
+<br>
+<div class="services-area">
 
+    <div class="container">
+        <div class="row">
+            <img src="images/carnet/sonria1.jpg" alt="">
+
+        </div>
+
+
+    </div>
+
+</div>
+
+<!--imagen corporativa-->
 <!--Services Area Starts-->
 
 <div id="about" class="services-area section-padding">
@@ -205,7 +220,7 @@
             <div class="col-md-12">
                 <div class="section-header wow fadeInDown" data-wow-delay="0.1s">
                     <p class="line-one"></p>
-                    <h2 style="color: #0f62ac" class="btn btn-2">Nuestros Clientes</h2>
+                    <h2 style="color: #0f62ac" class="">Nuestros Clientes</h2>
 
                     <p class="line-one"></p>
 
@@ -256,22 +271,7 @@
 </div>
 
 
-<!--imagen corporativa-->
 
-<div class="services-area">
-
-    <div class="container">
-        <div class="row">
-            <img src="images/carnet/sonria1.jpg" alt="">
-
-        </div>
-
-
-    </div>
-
-</div>
-
-<!--imagen corporativa-->
 
 
 <!--Services Area Ends-->
@@ -931,106 +931,107 @@ height: 362px; " class="img-responsive" alt="about image">
 
     </div>
 </div>
-<div class="contact-area section-padding" id="carta">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12" style="text-align: center">
+<!--carta-->
+<!--<div class="contact-area section-padding" id="carta">-->
+    <!--<div class="container">-->
+        <!--<div class="row">-->
+            <!--<div class="col-md-12" style="text-align: center">-->
 
-                <!--nuevo formulario-->
-                <button class="boton_formulario"
-                        onclick="document.getElementById('modal-wrapper').style.display='block'"
-                        style="width:200px; margin-top:200px; margin-left:160px;">
-                    <img src="images/inicio/carta%20177x136.png" alt="">
-                </button>
+                <!--&lt;!&ndash;nuevo formulario&ndash;&gt;-->
+                <!--<button class="boton_formulario"-->
+                        <!--onclick="document.getElementById('modal-wrapper').style.display='block'"-->
+                        <!--style="width:200px; margin-top:200px; margin-left:160px;">-->
+                    <!--<img src="images/inicio/carta%20177x136.png" alt="">-->
+                <!--</button>-->
 
-                <div id="modal-wrapper" class="modal">
+                <!--<div id="modal-wrapper" class="modal">-->
 
-                    <form class="modal-content animate" action="/action_page.php">
+                    <!--<form class="modal-content animate" action="/action_page.php">-->
 
-                        <div class="imgcontainer" id="boton_formulario">
-                        <span onclick="document.getElementById('modal-wrapper').style.display='none'" class="close"
-                              title="Close PopUp">&times;</span>
-                            <img src="images/inicio/carta%20242x205.png" alt="Avatar" class="avatar">
-                        </div>
+                        <!--<div class="imgcontainer" id="boton_formulario">-->
+                        <!--<span onclick="document.getElementById('modal-wrapper').style.display='none'" class="close"-->
+                              <!--title="Close PopUp">&times;</span>-->
+                            <!--<img src="images/inicio/carta%20242x205.png" alt="Avatar" class="avatar">-->
+                        <!--</div>-->
 
-                        <div class="container-fluid">
+                        <!--<div class="container-fluid">-->
 
 
-                            <div class="d-flex p-2">
-                                <div class="col-md-10 col-md-offset-1">
-                                    <form id="contact-form" method="post" action="contact.php"
-                                          class="wow fadeInDown"
-                                          data-wow-delay="1.2s">
+                            <!--<div class="d-flex p-2">-->
+                                <!--<div class="col-md-10 col-md-offset-1">-->
+                                    <!--<form id="contact-form" method="post" action="contact.php"-->
+                                          <!--class="wow fadeInDown"-->
+                                          <!--data-wow-delay="1.2s">-->
 
-                                        <div class="messages"></div>
-                                        <!--you can change the message in contact.php file -->
+                                        <!--<div class="messages"></div>-->
+                                        <!--&lt;!&ndash;you can change the message in contact.php file &ndash;&gt;-->
 
-                                        <div class="controls">
+                                        <!--<div class="controls">-->
 
-                                            <div class="row">
-                                                <div class="col-md-6">
-                                                    <div class="form-group">
-                                                        <input id="form_name" type="text" name="name"
-                                                               class="form-control"
-                                                               placeholder="Tu nombre *" required="required"
-                                                               data-error="Nombre es requerido">
-                                                        <div class="help-block with-errors"></div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div class="form-group">
-                                                        <input id="form_email" type="email" name="email"
-                                                               class="form-control"
-                                                               placeholder="Tu correo *" required="required"
-                                                               data-error="Correo es requerido.">
-                                                        <div class="help-block with-errors"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-md-6">
-                                                    <div class="form-group">
-                                                        <input id="form_numero" type="number" name="numero"
-                                                               class="form-control"
-                                                               placeholder="Tu movil *" required="required"
-                                                               data-error="Tu numero es requrido"
-                                                               maxlength="10">
-                                                        <div class="help-block with-errors"></div>
-                                                    </div>
-                                                </div>
+                                            <!--<div class="row">-->
+                                                <!--<div class="col-md-6">-->
+                                                    <!--<div class="form-group">-->
+                                                        <!--<input id="form_name" type="text" name="name"-->
+                                                               <!--class="form-control"-->
+                                                               <!--placeholder="Tu nombre *" required="required"-->
+                                                               <!--data-error="Nombre es requerido">-->
+                                                        <!--<div class="help-block with-errors"></div>-->
+                                                    <!--</div>-->
+                                                <!--</div>-->
+                                                <!--<div class="col-md-6">-->
+                                                    <!--<div class="form-group">-->
+                                                        <!--<input id="form_email" type="email" name="email"-->
+                                                               <!--class="form-control"-->
+                                                               <!--placeholder="Tu correo *" required="required"-->
+                                                               <!--data-error="Correo es requerido.">-->
+                                                        <!--<div class="help-block with-errors"></div>-->
+                                                    <!--</div>-->
+                                                <!--</div>-->
+                                            <!--</div>-->
+                                            <!--<div class="row">-->
+                                                <!--<div class="col-md-6">-->
+                                                    <!--<div class="form-group">-->
+                                                        <!--<input id="form_numero" type="number" name="numero"-->
+                                                               <!--class="form-control"-->
+                                                               <!--placeholder="Tu movil *" required="required"-->
+                                                               <!--data-error="Tu numero es requrido"-->
+                                                               <!--maxlength="10">-->
+                                                        <!--<div class="help-block with-errors"></div>-->
+                                                    <!--</div>-->
+                                                <!--</div>-->
 
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-md-12">
-                                                    <div class="form-group">
-                                         <textarea id="form_message" name="message" class="form-control"
-                                                   placeholder="Dejanos un mensaje" rows="2" required="required"
-                                                   data-error="Dejanos un mensaje"></textarea>
-                                                        <div class="help-block with-errors"></div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-12">
-                                                    <button class="btn btn-send" value="">Enviar Mensaje
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
+                                            <!--</div>-->
+                                            <!--<div class="row">-->
+                                                <!--<div class="col-md-12">-->
+                                                    <!--<div class="form-group">-->
+                                         <!--<textarea id="form_message" name="message" class="form-control"-->
+                                                   <!--placeholder="Dejanos un mensaje" rows="2" required="required"-->
+                                                   <!--data-error="Dejanos un mensaje"></textarea>-->
+                                                        <!--<div class="help-block with-errors"></div>-->
+                                                    <!--</div>-->
+                                                <!--</div>-->
+                                                <!--<div class="col-md-12">-->
+                                                    <!--<button class="btn btn-send" value="">Enviar Mensaje-->
+                                                    <!--</button>-->
+                                                <!--</div>-->
+                                            <!--</div>-->
+                                        <!--</div>-->
 
-                                    </form>
-                                </div>
-                            </div>
+                                    <!--</form>-->
+                                <!--</div>-->
+                            <!--</div>-->
 
-                            <!--<input type="text" placeholder="Enter Username" name="uname">-->
-                            <!--<input type="password" placeholder="Enter Password" name="psw">-->
-                            <!--<button type="submit">Enviar Mensaje</button>-->
-                        </div>
+                            <!--&lt;!&ndash;<input type="text" placeholder="Enter Username" name="uname">&ndash;&gt;-->
+                            <!--&lt;!&ndash;<input type="password" placeholder="Enter Password" name="psw">&ndash;&gt;-->
+                            <!--&lt;!&ndash;<button type="submit">Enviar Mensaje</button>&ndash;&gt;-->
+                        <!--</div>-->
 
-                    </form>
+                    <!--</form>-->
 
-                </div>
-            </div>
-        </div>
-    </div>
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
 
 
     <!--nuevo formulario-->
