@@ -777,3 +777,16 @@ h1.heading {
     margin-top: 1px;
 
 }
+
+
+/*responsivos para el correo*/
+@media only screen and (max-width: 302px) {
+    .correo {
+        font-size: x-small;
+    }
+
+    .logo_principal{
+        width: 165PX !important;
+        height: 53px !important;
+    }
+}
