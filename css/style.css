@@ -818,6 +818,7 @@ canvas {
     background-size: cover;
     background-color: #0f62ac;
     position: relative;
+    padding: 0px 0px;
 }
 
 .testimonial-area:before {
