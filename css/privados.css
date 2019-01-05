@@ -790,3 +790,15 @@ h1.heading {
         height: 53px !important;
     }
 }
+
+/*estilos para la foto de nuestros clientes*/
+
+.nuestros_clientes{
+
+    color: aliceblue;
+}
+
+.espacios_familiar{
+
+    margin-top: -102px;
+}
