@@ -61,6 +61,8 @@
 
     <!--formulario carta-->
     <link rel="stylesheet" href="css/formulario_carta.css">
+    <!--formulario-->
+    <link rel="stylesheet" href="css/formulario.css">
 </head>
 <body>
 
@@ -138,7 +140,7 @@
                                     <li><a class="smooth-menu" href="#services">Beneficios</a></li>
                                     <li><a class="smooth-menu" href="#portfolio">Servicios</a></li>
                                     <li><a class="smooth-menu" href="#promociones">Promociones</a></li>
-                                    <li><a class="smooth-menu" href="#contact">Contactos</a></li>
+                                    <li><a class="smooth-menu" href="#contactUno">Contactos</a></li>
                                 </ul>
                             </nav>
                         </div>
@@ -180,7 +182,7 @@
                                         </span>
                                 </h1>
 
-                                <a href="#contact" class="banner-btn">Bienvenido</a>
+                                <a href="#contactUno" class="banner-btn">Bienvenido</a>
 
 
                             </section>
@@ -899,7 +901,7 @@ height: 362px; " class="img-responsive" alt="about image">
 
 <br>
 
-<div class="contact-area section-padding" id="contact">
+<div class="contact-area section-padding" id="contactUno">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -1174,50 +1176,59 @@ height: 362px; " class="img-responsive" alt="about image">
 </div>
 
 <!--MAPAS-->
+<div class="contact-container">
+    <ul class="actions">
+        <li><a href="#" id="contact" class="button big">Dejanos Un Mensaje</a></li>
+    </ul>
+</div>
 
+<div class="cd-popup contact" role="alert">
+    <form name="contactform" id="contactform" class="contact-form">
+        <div class="cd-popup-container" style="">
+            <p style="">
+                <a href="" class="cd-popup-close cd-close-button">
+                    <i class="fa fa-times" style="pointer-events:none;"></i>
+                </a>
+            </p>
 
-<!--formulario-->
-<form id="myForm">
-<div id="app" style="padding-top: 8rem;">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-6 col-sm-offset-3 form-group">
-                <label>
-                    Nombre:
-                </label>
-                <input class="form-control" type="text" v-model="from_name">
-                </input>
+            <div class="name">
+                <label for="name">Nombre</label>
+                <input type="text" id="name" name="name"/>
             </div>
-            <div class="col-sm-6 col-sm-offset-3 form-group">
-                <label>
-                    Asunto:
-                </label>
-                <input class="form-control" type="text" v-model="subject">
-                </input>
+            <div class="email">
+                <label for="email">Correo</label>
+                <input type="text" id="email" name="email"/>
             </div>
-            <div class="col-sm-6 col-sm-offset-3 form-group">
-                <label>
-                    Correo:
-                </label>
-                <input class="form-control" type="email" v-model="from_email">
-                </input>
+            <div class="message">
+                <label for="message">Mensaje</label>
+                <textarea name="message" id="message" name="message"></textarea>
             </div>
-            <div class="col-sm-6 col-sm-offset-3 form-group">
-                <label>
-                    Mensaje:
-                </label>
-                <textarea class="form-control" v-model="message">
-                        </textarea>
+            <br>
+            <div style="text-align:left">
+                <input type="checkbox" id="human" name="human"/>
+                <label for="human">Soy un humano y no un robot.</label>
             </div>
-            <div class="col-sm-6 col-sm-offset-3 text-center">
-                <button @click="enviar" class="btn btn-success">
-                    Enviar
-                </button>
+            <br>
+            <div class="submit">
+                <p class="user-message" id="contactblurb"> Preguntas, sugerencias y comentarios generales son
+                    bienvenidos!</p>
+                <input type="submit" name="submit" id="submit" value="Enviar"/>
             </div>
         </div>
+    </form>
+</div>
+
+<div class="cd-popup notification" role="alert">
+    <div class="cd-popup-container">
+        <a href="" class="cd-popup-close cd-close-button"><i class="fa fa-times" style="pointer-events:none;"></i></a>
+        <p>
+        <h3 id="notification-text">
+            Gracias por ponerse en contacto!</h3>
+        </p>
     </div>
 </div>
-</form>
+
+
 <!--formulario-->
 <!---->
 <!--Brand area ends-->
@@ -1444,46 +1455,164 @@ height: 362px; " class="img-responsive" alt="about image">
 </script>
 <script src="https://cdn.emailjs.com/dist/email.min.js" type="text/javascript">
 </script>
+
+
+<!--formulario-->
 <script>
 
-    (function () {
-        emailjs.init("user_p7Lb20gXPbFdHAmEGDXlp");
-    })();
-    const vue = new Vue({
-        el: '#app',
-        data() {
-            return {
-                from_name: '',
-                from_email: '',
-                message: '',
-                subject: '',
-            }
-        },
-        methods: {
-            enviar() {
-                let data = {
-                    from_name: this.from_name,
-                    from_email: this.from_email,
-                    message: this.message,
-                    subject: this.subject,
-                };
+    // Check for valid email syntax
+    function validateEmail(email) {
+        var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        return re.test(email);
+    }
 
-                emailjs.send("gmail", "template_2WohEOBK", data)
-                    .then(function (response) {
-                        if (response.text === 'OK') {
-                            alert('El correo se ha enviado de forma exitosa');
-                            document.getElementById("myForm").reset();
+    function closeForm() {
+        document.contactform.name.value = '';
+        document.contactform.email.value = '';
+        document.contactform.message.value = '';
+
+        $('.email').removeClass('typing');
+        $('.name').removeClass('typing');
+        $('.message').removeClass('typing');
+
+        $('.cd-popup').removeClass('is-visible');
+        $('.notification').addClass('is-visible');
+        $('#notification-text').html("¡Gracias por contactarnos!");
+    }
+
+    $(document).ready(function ($) {
+
+        /* ------------------------- */
+        /* Contact Form Interactions */
+        /* ------------------------- */
+        $('#contact').on('click', function (event) {
+            event.preventDefault();
+
+            $('#contactblurb').html('Preguntas, sugerencias y comentarios generales son bienvenidos!');
+            $('.contact').addClass('is-visible');
+
+            if ($('#name').val().length != 0) {
+                $('.name').addClass('typing');
+            }
+            if ($('#email').val().length != 0) {
+                $('.email').addClass('typing');
+            }
+            if ($('#message').val().length != 0) {
+                $('.message').addClass('typing');
+            }
+        });
+
+        //close popup when clicking x or off popup
+        $('.cd-popup').on('click', function (event) {
+            if ($(event.target).is('.cd-popup-close') || $(event.target).is('.cd-popup')) {
+                event.preventDefault();
+                $(this).removeClass('is-visible');
+            }
+        });
+
+        //close popup when clicking the esc keyboard button
+        $(document).keyup(function (event) {
+            if (event.which == '27') {
+                $('.cd-popup').removeClass('is-visible');
+            }
+        });
+
+        /* ------------------- */
+        /* Contact Form Labels */
+        /* ------------------- */
+        $('#name').keyup(function () {
+            $('.name').addClass('typing');
+            if ($(this).val().length == 0) {
+                $('.name').removeClass('typing');
+            }
+        });
+        $('#email').keyup(function () {
+            $('.email').addClass('typing');
+            if ($(this).val().length == 0) {
+                $('.email').removeClass('typing');
+            }
+        });
+        $('#message').keyup(function () {
+            $('.message').addClass('typing');
+            if ($(this).val().length == 0) {
+                $('.message').removeClass('typing');
+            }
+        });
+
+        /* ----------------- */
+        /* Handle submission */
+        /* ----------------- */
+        $('#contactform').submit(function () {
+            var name = $('#name').val();
+            var email = $('#email').val();
+            var message = $('#message').val();
+            var human = $('#human:checked').val();
+
+            if (human) {
+                if (validateEmail(email)) {
+                    if (name) {
+                        if (message) {
+                            //metodo a implementar
+                            (function () {
+                                emailjs.init("user_p7Lb20gXPbFdHAmEGDXlp");
+                            })();
+                            const vue = new Vue({
+                                el: '#app',
+                                data() {
+                                    return {
+                                        from_name: '',
+                                        from_email: '',
+                                        message: '',
+                                        subject: '',
+                                    }
+                                },
+                                methods: {
+                                    enviar() {
+                                        let data = {
+                                            from_name: this.from_name,
+                                            from_email: this.from_email,
+                                            message: this.message,
+                                            subject: this.subject,
+                                        };
+
+                                        emailjs.send("gmail", "template_2WohEOBK", data)
+                                            .then(function (response) {
+                                                if (response.text === 'OK') {
+                                                    alert('El correo se ha enviado de forma exitosa');
+                                                    document.getElementById("myForm").reset();
+                                                }
+                                                console.log("SUCCESS. status=%d, text=%s", response.status, response.text);
+                                            }, function (err) {
+                                                alert('Ocurrió un problema al enviar el correo');
+                                                document.getElementById("myForm").reset();
+                                                console.log("FAILED. error=", err);
+                                            });
+                                    }
+                                }
+                            });
+
+                            closeForm();
+
+                        } else {
+                            $('#notification-text').html("<strong>Por favor, háganos saber lo que está pensando!</strong>");
+                            $('.notification').addClass('is-visible');
                         }
-                        console.log("SUCCESS. status=%d, text=%s", response.status, response.text);
-                    }, function (err) {
-                        alert('Ocurrió un problema al enviar el correo');
-                        document.getElementById("myForm").reset();
-                        console.log("FAILED. error=", err);
-                    });
+                    } else {
+                        $('#notification-text').html('<strong>Por favor proporcione un nombre</strong>');
+                        $('.notification').addClass('is-visible');
+                    }
+                } else {
+                    $('#notification-text').html('<strong>Por favor utilice una dirección de correo electrónico válida.</strong>');
+                    $('.notification').addClass('is-visible');
+                }
+            } else {
+                $('#notification-text').html('<h3><strong><em> Advertencia: Por favor, demuestre que es un humano y no un robot  </em></strong></h3>');
+                $('.notification').addClass('is-visible');
             }
-        }
-    });
 
+            return false;
+        });
+    });
 </script>
 </body>
 </html>
