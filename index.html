@@ -84,8 +84,64 @@
         <div class="aba-whatsphone_tres">
             <div class="aba-whatsphone-icone_tres">
                 <img class="carta_img" src="images/inicio/carta%2045x45.png" alt="">
-                <a class="carta_personalizada" target="_top" href="#carta"><h5 style="color: #0f62ac">
-                    Dejanos un Mensaje</h5></a>
+                <!--<a class="carta_personalizada" target="_top" href="#carta"><h5 style="color: #0f62ac">-->
+                <!--Dejanos un Mensaje</h5></a>-->
+                <!---->
+                <div class="contact-container">
+                    <ul class="actions">
+                        <li><a href="#" id="contact" class="button big">Dejanos Un Mensaje</a></li>
+                    </ul>
+                </div>
+
+                <div class="cd-popup contact" role="alert">
+                    <form name="contactform" id="contactform" class="contact-form">
+                        <div class="cd-popup-container" style="">
+                            <p style="">
+                                <a href="" class="cd-popup-close cd-close-button">
+                                    <i class="fa fa-times" style="pointer-events:none;"></i>
+                                </a>
+                            </p>
+
+                            <div class="name">
+                                <label for="name">Nombre</label>
+                                <input type="text" id="name" name="name"/>
+                            </div>
+                            <div class="email">
+                                <label for="email">Correo</label>
+                                <input type="text" id="email" name="email"/>
+                            </div>
+                            <div class="message">
+                                <label for="message">Mensaje</label>
+                                <textarea name="message" id="message" name="message"></textarea>
+                            </div>
+                            <br>
+                            <div style="text-align:left">
+                                <input type="checkbox" id="human" name="human"/>
+                                <label for="human">Soy un humano y no un robot.</label>
+                            </div>
+                            <br>
+                            <div class="submit">
+                                <p class="user-message" id="contactblurb"> Preguntas, sugerencias y comentarios
+                                    generales son
+                                    bienvenidos!</p>
+                                <input type="submit" name="submit" id="submit" value="Enviar"/>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="cd-popup notification" role="alert">
+                    <div class="cd-popup-container">
+                        <a href="" class="cd-popup-close cd-close-button"><i class="fa fa-times"
+                                                                             style="pointer-events:none;"></i></a>
+                        <p>
+                        <h3 id="notification-text">
+                            Gracias por ponerse en contacto!</h3>
+                        </p>
+                    </div>
+                </div>
+
+                <!---->
             </div>
         </div>
     </div>
@@ -1176,57 +1232,6 @@ height: 362px; " class="img-responsive" alt="about image">
 </div>
 
 <!--MAPAS-->
-<div class="contact-container">
-    <ul class="actions">
-        <li><a href="#" id="contact" class="button big">Dejanos Un Mensaje</a></li>
-    </ul>
-</div>
-
-<div class="cd-popup contact" role="alert">
-    <form name="contactform" id="contactform" class="contact-form">
-        <div class="cd-popup-container" style="">
-            <p style="">
-                <a href="" class="cd-popup-close cd-close-button">
-                    <i class="fa fa-times" style="pointer-events:none;"></i>
-                </a>
-            </p>
-
-            <div class="name">
-                <label for="name">Nombre</label>
-                <input type="text" id="name" name="name"/>
-            </div>
-            <div class="email">
-                <label for="email">Correo</label>
-                <input type="text" id="email" name="email"/>
-            </div>
-            <div class="message">
-                <label for="message">Mensaje</label>
-                <textarea name="message" id="message" name="message"></textarea>
-            </div>
-            <br>
-            <div style="text-align:left">
-                <input type="checkbox" id="human" name="human"/>
-                <label for="human">Soy un humano y no un robot.</label>
-            </div>
-            <br>
-            <div class="submit">
-                <p class="user-message" id="contactblurb"> Preguntas, sugerencias y comentarios generales son
-                    bienvenidos!</p>
-                <input type="submit" name="submit" id="submit" value="Enviar"/>
-            </div>
-        </div>
-    </form>
-</div>
-
-<div class="cd-popup notification" role="alert">
-    <div class="cd-popup-container">
-        <a href="" class="cd-popup-close cd-close-button"><i class="fa fa-times" style="pointer-events:none;"></i></a>
-        <p>
-        <h3 id="notification-text">
-            Gracias por ponerse en contacto!</h3>
-        </p>
-    </div>
-</div>
 
 
 <!--formulario-->
