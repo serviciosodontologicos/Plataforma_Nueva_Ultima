@@ -71,7 +71,7 @@ ul.actions li:last-child {
 .contact-container {
     width: 100%;
     /*padding-top: 20%;*/
-    margin-left: -82%;
+    margin-left: -97%;
     margin-right: auto;
     text-align: center;
     margin-top: -15%;
@@ -317,7 +317,7 @@ input[type="button"].icon:before,
 
 @media only screen and (min-width: 1170px) {
     .cd-popup-container {
-        margin: 2em auto;
+        margin: 12em auto;
     }
 }
 
@@ -433,7 +433,7 @@ label:hover {
 }
 
 .contact-form .message textarea {
-    height: 200px !important;
+    height: 143px !important;
     padding: 23px !important;
 }
 
