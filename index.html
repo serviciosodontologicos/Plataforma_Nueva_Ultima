@@ -106,11 +106,11 @@
                             <small>I'll get back to you as quickly as possible</small>
 
                             <form action="#">
-                                <input placeholder="Name" type="text" required />
-                                <input placeholder="Email" type="email" required />
-                                <input placeholder="Subject" type="text" required />
-                                <textarea placeholder="Comment"></textarea>
-                                <input class="formBtn" type="submit" />
+                                <input placeholder="Nombre" type="text" required v-model="from_name"/>
+                                <input placeholder="Correo" type="email" required  v-model="from_email"/>
+                                <input placeholder="Telefono" type="tel" maxlength="10" required v-model="phone"/>
+                                <textarea placeholder="Mensaje" v-model="message"></textarea>
+                                <input class="formBtn" type="submit" @click="enviar"  />
                                 <input class="formBtn" type="reset" />
                             </form>
                         </div>
