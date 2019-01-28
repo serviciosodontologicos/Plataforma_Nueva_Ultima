@@ -39,20 +39,47 @@ const vue = new Vue({
                 phone: this.phone,
             };
 
-            emailjs.send("gmail", "template_2WohEOBK", data)
-                .then(function (response) {
-                    if (response.text === 'OK') {
-                        alert('El correo se ha enviado de forma exitosa');
-                        document.getElementById("nombre").reset();
-                        document.getElementById("telefono").reset();
-                        document.getElementById("correo").reset();
-                        document.getElementById("mensaje").reset();
-                    }
-                    console.log("SUCCESS. status=%d, text=%s", response.status, response.text);
-                }, function (err) {
-                    alert('Ocurrió un problema al enviar el correo');
-                    console.log("FAILED. error=", err);
-                });
+
+            //validar campos del formulario
+            var txtNombre = document.getElementById('nombre').value;
+            var txtCorreo = document.getElementById('correo').value;
+            var txttelefono = document.getElementById('telefono').value;
+            var banderaRBTN = false;
+
+            //Test campo obligatorio
+            if(txtNombre == null || txtNombre.length == 0 || /^\s+$/.test(txtNombre)){
+                alert('ERROR: El campo nombre no debe ir vacío o lleno de solamente espacios en blanco');
+                return false;
+            }
+            //Test edad
+            if(txttelefono == null || txttelefono.length == 0 || isNaN(txttelefono)){
+                alert('ERROR: Debe ingresar un Telefono');
+                return false;
+            }
+
+
+            //Test correo
+            if(!(/\S+@\S+\.\S+/.test(txtCorreo))){
+                alert('ERROR: Debe escribir un correo válido');
+                return false;
+            }
+
+
+            if(txtNombre != null && txtCorreo != null && txttelefono != null){
+                emailjs.send("gmail", "template_2WohEOBK", data)
+                    .then(function (response) {
+                        if (response.text === 'OK') {
+                            alert('El correo se ha enviado de forma exitosa');
+                        }
+                        console.log("SUCCESS. status=%d, text=%s", response.status, response.text);
+                    }, function (err) {
+                        alert('Ocurrió un problema al enviar el correo');
+                        console.log("FAILED. error=", err);
+                    });
+            }else{
+                alert('Por favor verifique los campos del formulario');
+            }
+
         }
     }
 });

@@ -105,12 +105,12 @@
                             <h1>Tú Sonrisa en las Mejores Manos</h1>
                             <small>Dejanos un mensaje y nos comunicaremos contigo</small>
 
-                            <form action="#">
-                                <input placeholder="Nombre" type="text" required v-model="from_name"/>
-                                <input placeholder="Correo" type="email" required  v-model="from_email"/>
-                                <input placeholder="Telefono" type="tel" maxlength="10" required v-model="phone"/>
+                            <form action="#" onsubmit="return enviar()">
+                                <input id="nombre" placeholder="Nombre" type="text" required v-model="from_name"/>
+                                <input id="correo" placeholder="Correo" type="email" required  v-model="from_email"/>
+                                <input id="telefono" placeholder="Telefono" type="tel" maxlength="10" required v-model="phone"/>
                                 <textarea placeholder="Mensaje" v-model="message"></textarea>
-                                <input class="formBtn" type="submit" @click="enviar"  />
+                                <input id="boton_enviar" class="formBtn" type="submit" @click="enviar"  />
                                 <input class="formBtn" type="reset" />
                             </form>
                         </div>
