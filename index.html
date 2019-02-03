@@ -63,12 +63,15 @@
     <link rel="stylesheet" href="css/formulario_carta.css">
     <!--formulario-->
     <link rel="stylesheet" href="css/formulario.css">
+
+    <!--boton hacia arriba css-->
+    <link rel="stylesheet" href="css/boton_hacia_arriba.css">
 </head>
 <body>
 
 
 <!--boton de whatsappp-->
-<div class="fixed-tabs-Whats">
+<div class="fixed-tabs-Whats" id="mensaje_whatsapp">
     <div class="aba-whatsphone">
         <div class="aba-whatsphone-icone">
             <a target="_blank" href="https://web.whatsapp.com/send?phone=573105760051&text=Hola%22">Hola<br><strong>Agenda
@@ -89,7 +92,7 @@
 
                         <button onclick="document.getElementById('modal-wrapper').style.display='block'"
                                 style="width:200px; margin-top:-2%; margin-left:258%;">
-                            <div id="contact">Mensaje </div>
+                            <div id="contact">Mensaje</div>
                         </button>
                     </ul>
                 </div>
@@ -107,18 +110,18 @@
 
                             <form action="#" onsubmit="return enviar()">
                                 <input id="nombre" placeholder="Nombre" type="text" required v-model="from_name"/>
-                                <input id="correo" placeholder="Correo" type="email" required  v-model="from_email"/>
-                                <input id="telefono" placeholder="Telefono" type="tel" maxlength="10" required v-model="phone"/>
+                                <input id="correo" placeholder="Correo" type="email" required v-model="from_email"/>
+                                <input id="telefono" placeholder="Telefono" type="tel" maxlength="10" required
+                                       v-model="phone"/>
                                 <textarea placeholder="Mensaje" v-model="message"></textarea>
-                                <input id="boton_enviar" class="formBtn" type="submit" @click="enviar"  />
-                                <input class="formBtn" type="reset" />
+                                <input id="boton_enviar" class="formBtn" type="submit" @click="enviar"/>
+                                <input class="formBtn" type="reset"/>
                             </form>
                         </div>
                     </div>
 
 
                 </div>
-
 
 
                 <!--</div>-->
@@ -724,9 +727,18 @@ height: 362px;box-shadow: 0 65px 40px rgba(72, 92, 240, 0.2); " class="img-respo
                                         <a target="_blank"
                                            href="https://web.whatsapp.com/send?phone=573105760051&text=Hola%22"
                                            class="btn btn-link btn-block">
-                                            Solicita tu cita!
+                                            <i class="fab fa-whatsapp"></i>
+
+                                            <!--Solicita tu cita!-->
+                                        </a>
+                                        <a
+                                                target="_blank"
+
+                                                href="#contact">
+                                            <i class="fas fa-envelope"></i>
                                         </a>
                                     </div>
+
                                 </div>
                             </div>
 
@@ -921,110 +933,7 @@ height: 362px;box-shadow: 0 65px 40px rgba(72, 92, 240, 0.2); " class="img-respo
 
     </div>
 </div>
-<!--carta-->
-<!--<div class="contact-area section-padding" id="carta">-->
-<!--<div class="container">-->
-<!--<div class="row">-->
-<!--<div class="col-md-12" style="text-align: center">-->
 
-<!--&lt;!&ndash;nuevo formulario&ndash;&gt;-->
-<!--<button class="boton_formulario"-->
-<!--onclick="document.getElementById('modal-wrapper').style.display='block'"-->
-<!--style="width:200px; margin-top:200px; margin-left:160px;">-->
-<!--<img src="images/inicio/carta%20177x136.png" alt="">-->
-<!--</button>-->
-
-<!--<div id="modal-wrapper" class="modal">-->
-
-<!--<form class="modal-content animate" action="/action_page.php">-->
-
-<!--<div class="imgcontainer" id="boton_formulario">-->
-<!--<span onclick="document.getElementById('modal-wrapper').style.display='none'" class="close"-->
-<!--title="Close PopUp">&times;</span>-->
-<!--<img src="images/inicio/carta%20242x205.png" alt="Avatar" class="avatar">-->
-<!--</div>-->
-
-<!--<div class="container-fluid">-->
-
-
-<!--<div class="d-flex p-2">-->
-<!--<div class="col-md-10 col-md-offset-1">-->
-<!--<form id="contact-form" method="post" action="contact.php"-->
-<!--class="wow fadeInDown"-->
-<!--data-wow-delay="1.2s">-->
-
-<!--<div class="messages"></div>-->
-<!--&lt;!&ndash;you can change the message in contact.php file &ndash;&gt;-->
-
-<!--<div class="controls">-->
-
-<!--<div class="row">-->
-<!--<div class="col-md-6">-->
-<!--<div class="form-group">-->
-<!--<input id="form_name" type="text" name="name"-->
-<!--class="form-control"-->
-<!--placeholder="Tu nombre *" required="required"-->
-<!--data-error="Nombre es requerido">-->
-<!--<div class="help-block with-errors"></div>-->
-<!--</div>-->
-<!--</div>-->
-<!--<div class="col-md-6">-->
-<!--<div class="form-group">-->
-<!--<input id="form_email" type="email" name="email"-->
-<!--class="form-control"-->
-<!--placeholder="Tu correo *" required="required"-->
-<!--data-error="Correo es requerido.">-->
-<!--<div class="help-block with-errors"></div>-->
-<!--</div>-->
-<!--</div>-->
-<!--</div>-->
-<!--<div class="row">-->
-<!--<div class="col-md-6">-->
-<!--<div class="form-group">-->
-<!--<input id="form_numero" type="number" name="numero"-->
-<!--class="form-control"-->
-<!--placeholder="Tu movil *" required="required"-->
-<!--data-error="Tu numero es requrido"-->
-<!--maxlength="10">-->
-<!--<div class="help-block with-errors"></div>-->
-<!--</div>-->
-<!--</div>-->
-
-<!--</div>-->
-<!--<div class="row">-->
-<!--<div class="col-md-12">-->
-<!--<div class="form-group">-->
-<!--<textarea id="form_message" name="message" class="form-control"-->
-<!--placeholder="Dejanos un mensaje" rows="2" required="required"-->
-<!--data-error="Dejanos un mensaje"></textarea>-->
-<!--<div class="help-block with-errors"></div>-->
-<!--</div>-->
-<!--</div>-->
-<!--<div class="col-md-12">-->
-<!--<button class="btn btn-send" value="">Enviar Mensaje-->
-<!--</button>-->
-<!--</div>-->
-<!--</div>-->
-<!--</div>-->
-
-<!--</form>-->
-<!--</div>-->
-<!--</div>-->
-
-<!--&lt;!&ndash;<input type="text" placeholder="Enter Username" name="uname">&ndash;&gt;-->
-<!--&lt;!&ndash;<input type="password" placeholder="Enter Password" name="psw">&ndash;&gt;-->
-<!--&lt;!&ndash;<button type="submit">Enviar Mensaje</button>&ndash;&gt;-->
-<!--</div>-->
-
-<!--</form>-->
-
-<!--</div>-->
-<!--</div>-->
-<!--</div>-->
-<!--</div>-->
-
-
-<!--nuevo formulario-->
 
 
 </div>
@@ -1099,6 +1008,18 @@ height: 362px;box-shadow: 0 65px 40px rgba(72, 92, 240, 0.2); " class="img-respo
 <!--MAPAS-->
 
 
+<!--boton hacia arriba  inicio-->
+
+<a class="ir-arriba"  href="#" title="Volver arriba">
+        <span class="fa-stack">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-arrow-up fa-stack-1x fa-inverse"></i>
+        </span>
+</a>
+
+
+<!--boton hacia arriba fin-->
+
 <!--Footer Area Starts-->
 
 <div class="footer-area">
@@ -1153,8 +1074,15 @@ height: 362px;box-shadow: 0 65px 40px rgba(72, 92, 240, 0.2); " class="img-respo
 
 <script src="js/privados.js">
 
+
+
 </script>
 
+<!--boton hacian arriba-->
+
+<script src="js/boton_hacia_arriba.js">
+
+</script>
 <script>
 
     (function ($) {

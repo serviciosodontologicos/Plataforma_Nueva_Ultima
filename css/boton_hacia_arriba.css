@@ -1,0 +1,13 @@
+/*Flecha para hacer la pagina hacia arriba*/
+.ir-arriba {
+    display: none;
+    padding: 30px;
+    background-repeat: no-repeat;
+    font-size: 28px;
+    color: #0f62ac;
+    cursor: pointer;
+    position: fixed;
+    bottom: -3px;
+    right: 20px;
+    z-index: 2;
+}
