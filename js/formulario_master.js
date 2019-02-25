@@ -35,6 +35,9 @@ myform.submit(function(event){
         .then(function(){
             alert("Se envio Tu Mensaje.. Gracias");
             myform.find("button").text("Enviando..");
+            $("button").click(function(){
+                $("form#myform")[0].reset();
+            });
             // cerrarForm.remove();
         }, function(err) {
             //alert("Send email failed!\r\n Response:\n " + JSON.stringify(err));
