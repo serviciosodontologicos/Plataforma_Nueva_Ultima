@@ -17,8 +17,7 @@ $(function() {
 });
 
 var myform = $("form#myform");
-var mygeneral = $("form#contactForm");
-var cerrarForm = $('#contact');
+var cerrarForm = $('#modal-wrapper');
 myform.submit(function(event){
     event.preventDefault();
 
@@ -36,21 +35,17 @@ myform.submit(function(event){
         .then(function(){
             alert("Se envio Tu Mensaje.. Gracias");
             myform.find("button").text("Enviando..");
-            mygeneral.close();
-            myform.close();
-            cerrar();
-            cerrarForm.close();
+            // cerrarForm.remove();
         }, function(err) {
             //alert("Send email failed!\r\n Response:\n " + JSON.stringify(err));
             myform.find("button").text("Enviando..");
-            cerrar();
             cerrarForm.close();
         });
 
     return false;
 });
 function cerrar() {
-    window.close();
+    // cerrarForm.remove();
 }
 
 
