@@ -108,14 +108,19 @@
                             <h1>Tú Sonrisa en las Mejores Manos</h1>
                             <small>Dejanos un mensaje y nos comunicaremos contigo</small>
 
-                            <form action="#" onsubmit="return enviar()">
-                                <input id="nombre" placeholder="Nombre" type="text" required v-model="from_name"/>
-                                <input id="correo" placeholder="Correo" type="email" required v-model="from_email"/>
+                            <form action="#" id="myform">
+                                <input id="nombre" placeholder="Nombre" type="text" required name="from_name"/>
+                                <input id="correo" placeholder="Correo" type="email" required name="from_email"/>
                                 <input id="telefono" placeholder="Telefono" type="tel" maxlength="10" required
-                                       v-model="phone"/>
-                                <textarea placeholder="Mensaje" v-model="message"></textarea>
-                                <input id="boton_enviar" class="formBtn" type="submit" @click="enviar" placeholder=""/>
-                                <input class="formBtn" type="reset"/>
+                                       name="phone"/>
+                                <textarea placeholder="Mensaje" name="message"></textarea>
+                                <button class="btn btn-warning">
+                                    Enviar
+                                </button>
+
+
+                                <!--<input id="boton_enviar" class="formBtn" type="submit" @click="enviar" placeholder=""/>-->
+                                <!--<input class="formBtn" type="reset"/>-->
                             </form>
                         </div>
                     </div>
@@ -935,7 +940,6 @@ height: 362px;box-shadow: 0 65px 40px rgba(72, 92, 240, 0.2); " class="img-respo
 </div>
 
 
-
 </div>
 <br>
 
@@ -1010,7 +1014,7 @@ height: 362px;box-shadow: 0 65px 40px rgba(72, 92, 240, 0.2); " class="img-respo
 
 <!--boton hacia arriba  inicio-->
 
-<a class="ir-arriba"  href="#" title="Volver arriba">
+<a class="ir-arriba" href="#" title="Volver arriba">
         <span class="fa-stack">
             <i class="fa fa-circle fa-stack-2x"></i>
             <i class="fa fa-arrow-up fa-stack-1x fa-inverse"></i>
@@ -1073,7 +1077,6 @@ height: 362px;box-shadow: 0 65px 40px rgba(72, 92, 240, 0.2); " class="img-respo
 <script src="js/main.js"></script>
 
 <script src="js/privados.js">
-
 
 
 </script>
@@ -1250,7 +1253,11 @@ height: 362px;box-shadow: 0 65px 40px rgba(72, 92, 240, 0.2); " class="img-respo
 <script src="https://cdn.emailjs.com/dist/email.min.js" type="text/javascript">
 </script>
 
-
+<script type="text/javascript">
+    (function(){
+        emailjs.init("user_p7Lb20gXPbFdHAmEGDXlp");
+    })();
+</script>
 <!--formulario-->
 <script src="js/formulario_master.js" type="text/javascript">
 
