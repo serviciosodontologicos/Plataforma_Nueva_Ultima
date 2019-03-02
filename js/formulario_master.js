@@ -40,6 +40,7 @@ myform.submit(function(event){
             document.getElementById("mensaje").value = "";
             alert("Se envio Tu Mensaje.. Gracias");
             myform.find("button").text("Enviando");
+            document.getElementById("modal-wrapper").closet();
             // document.getElementById("").valueOf() =
 
             // $("button").click(function(){

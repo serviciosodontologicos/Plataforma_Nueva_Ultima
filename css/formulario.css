@@ -16,6 +16,11 @@ textarea {
     line-height: 1.75em;
 }
 
+input:focus, textarea:focus {
+    /* Para dar un pequeño destaque en elementos activos*/
+    border-color: #0f62ac;
+}
+
 input,
 textarea {
     border: none !important;
