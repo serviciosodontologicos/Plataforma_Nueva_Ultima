@@ -33,8 +33,13 @@ myform.submit(function(event){
     myform.find("button").text("Enviando..");
     emailjs.send(service_id, template_id, params)
         .then(function(){
-            alert("Se envio Tu Mensaje.. Gracias");
             myform.find("button").text("Enviando..");
+            document.getElementById("nombre").value = "";
+            document.getElementById("correo").value = "";
+            document.getElementById("telefono").value = "";
+            document.getElementById("mensaje").value = "";
+            alert("Se envio Tu Mensaje.. Gracias");
+            myform.find("button").text("Enviando");
             // document.getElementById("").valueOf() =
 
             // $("button").click(function(){
