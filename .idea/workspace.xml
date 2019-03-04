@@ -20,7 +20,7 @@
     <session id="-90710868">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.59" value="1" />
           <entry key="project.opened" value="2" />
@@ -44,14 +44,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="2" />
-          <entry key="html" value="179" />
+          <entry key="html" value="180" />
           <entry key="js" value="96" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="2" />
-          <entry key="HTML" value="179" />
+          <entry key="HTML" value="180" />
           <entry key="JavaScript" value="96" />
         </counts>
       </usages-collector>
@@ -63,7 +63,7 @@
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="502">
-              <caret line="1030" lean-forward="true" selection-start-line="1030" selection-end-line="1030" />
+              <caret line="1030" column="1" selection-start-line="1030" selection-start-column="1" selection-end-line="1030" selection-end-column="1" />
               <folding>
                 <element signature="n#style#0;n#h5#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -288,12 +288,12 @@
       <workItem from="1546708690204" duration="7274000" />
       <workItem from="1551072216829" duration="5545000" />
       <workItem from="1551489240106" duration="3406000" />
-      <workItem from="1551547906030" duration="3331000" />
+      <workItem from="1551547906030" duration="3627000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148465000" />
+    <option name="totallyTimeSpent" value="148761000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -502,7 +502,7 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="502">
-          <caret line="1030" lean-forward="true" selection-start-line="1030" selection-end-line="1030" />
+          <caret line="1030" column="1" selection-start-line="1030" selection-start-column="1" selection-end-line="1030" selection-end-column="1" />
           <folding>
             <element signature="n#style#0;n#h5#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
