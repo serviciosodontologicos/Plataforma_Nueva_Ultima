@@ -15,6 +15,9 @@
     .aba-whatsphone-icone_tres{
         display: none;
     }
+    .fixed-tabs-Whats_tres{
+        display: none;
+    }
 
     .ir-arriba{
         display: none;
@@ -31,5 +34,10 @@
 
     .menu_nav{
         display: none;  
+    }
+
+    #texto_info{
+        font-size: 12px;
+        margin-top: 60px;
     }
   }
