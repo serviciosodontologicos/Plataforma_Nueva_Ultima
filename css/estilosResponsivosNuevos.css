@@ -28,4 +28,8 @@
         width: 182PX !important;
         height: 54px !important;
     }
+
+    .menu_nav{
+        display: none;  
+    }
   }
