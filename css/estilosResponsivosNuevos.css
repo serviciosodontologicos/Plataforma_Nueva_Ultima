@@ -1,0 +1,25 @@
+
+
+
+
+/* logo principal */
+
+@media only screen and (min-width: 300px) and (max-width: 320px) {
+    .mensaje_whatsapp {
+      display: none;
+    }
+    .aba-whatsphone{
+        display: none;
+    }
+
+    .aba-whatsphone-icone_tres{
+        display: none;
+    }
+
+    .ir-arriba{
+        display: none;
+    }
+    #boton_arriba_spam{
+        display: none;
+    }
+  }
