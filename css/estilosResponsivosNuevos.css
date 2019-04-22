@@ -53,6 +53,16 @@
         margin-left: -109px;
     }
 
+    #correo1,#correo2{
+        font-size: 14px;
+    } 
+
+    #text_1,#text_2,#text_3,#text_4,#text_5,#text_6,
+    #text_7,#text_8,#text_9,#text_10,#text_11,#text_12{
+        font-size: 13px;
+        text-align: left;
+    }
+
 
 
   }
