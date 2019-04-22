@@ -4,7 +4,7 @@
 
 /* logo principal */
 
-@media only screen and (min-width: 300px) and (max-width: 370px) {
+@media only screen and (min-width: 250px) and (max-width: 370px) {
     .mensaje_whatsapp {
       display: none;
     }
@@ -50,7 +50,7 @@
     }
 
     #id_promocion_3{
-        margin-left: -109px;
+        margin-left: 0% !important;
     }
 
     #correo1,#correo2{
