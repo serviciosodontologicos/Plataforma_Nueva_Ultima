@@ -36,8 +36,23 @@
         display: none;  
     }
 
-    #texto_info{
+    #texto_info, #texto_info2{
         font-size: 12px;
         margin-top: 60px;
+    } 
+
+
+    #imagen_familiar{
+
+        margin-top: 35% !important;
+
+        height: 250px !important;
     }
+
+    #id_promocion_3{
+        margin-left: -109px;
+    }
+
+
+
   }
