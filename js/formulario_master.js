@@ -40,11 +40,10 @@ myform.submit(function(event){
             document.getElementById("mensaje").value = "";
             alert("Se envio Tu Mensaje.. Gracias");
             myform.find("button").text("Enviando");
-            document.getElementById("modal-wrapper").closet();
-            document.getElementById("nombre").value = "";
-            document.getElementById("correo").value = "";
-            document.getElementById("telefono").value = "";
-            document.getElementById("mensaje").value = "";
+            $('input[type="text"]').val('');
+            $('input[type="email"]').val('');
+            $('input[type="tel"]').val('');
+            myform.find("button").text("Enviado");
             // document.getElementById("").valueOf() =
 
             // $("button").click(function(){
