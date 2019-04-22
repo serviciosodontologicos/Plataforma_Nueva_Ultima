@@ -9,9 +9,23 @@ NB: This is the responsive stylesheet of this theme.
 
 =================================================== */
 
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+
+    #formulario_responsivo{
+        display: none;
+    }
+    
+}
 
 /* Medium Layout: 1280px. */
-@media only screen and (min-width: 992px) and (max-width: 1200px) {}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+    #formulario_responsivo{
+        display: none;
+    }
+    
+}
 
 /* Tablet Layout: 768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -61,6 +75,10 @@ NB: This is the responsive stylesheet of this theme.
     .logo_principal{
         width: 190PX !important;
         height: 40px !important;
+    }
+
+    #formulario_responsivo{
+        display: none;
     }
 
 }
@@ -225,6 +243,10 @@ NB: This is the responsive stylesheet of this theme.
         height: 40px !important;
     }
 
+    #formulario_responsivo{
+        display: none;
+    }
+
 
 
 }
@@ -254,6 +276,10 @@ NB: This is the responsive stylesheet of this theme.
         height: 40px !important;
     }
 
+    #formulario_responsivo{
+        display: none;
+    }
+
 
 
 }
@@ -272,6 +298,10 @@ NB: This is the responsive stylesheet of this theme.
     .portfolio-area ul.list-inline li {
         margin: 7px;
     }
+
+    #formulario_responsivo{
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 411px) and (max-width: 767px){
@@ -280,6 +310,9 @@ NB: This is the responsive stylesheet of this theme.
     }
     .timeline-area {
         width: 380px;
+    }
+    #formulario_responsivo{
+        display: none;
     }
 
 }
@@ -297,6 +330,10 @@ NB: This is the responsive stylesheet of this theme.
     .welcome-text h3 {
         font-size: 25px;
         margin-bottom: 20px;
+    }
+
+    #formulario_responsivo{
+        display: none;
     }
 
 }

@@ -41,6 +41,10 @@ myform.submit(function(event){
             alert("Se envio Tu Mensaje.. Gracias");
             myform.find("button").text("Enviando");
             document.getElementById("modal-wrapper").closet();
+            document.getElementById("nombre").value = "";
+            document.getElementById("correo").value = "";
+            document.getElementById("telefono").value = "";
+            document.getElementById("mensaje").value = "";
             // document.getElementById("").valueOf() =
 
             // $("button").click(function(){
