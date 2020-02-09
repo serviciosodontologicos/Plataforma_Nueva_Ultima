@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="37ab656d-312c-4583-aa2c-af0107aa5a52" name="Default Changelist" comment="meta en la magina web">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,40 +18,6 @@
         <option value="JavaScript File" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>miModal</find>
-      <find>contacto</find>
-      <find>open-modal-btn</find>
-      <find>Promociones</find>
-      <find>ortodoncia</find>
-      <find>Contacto</find>
-      <find>Carné De Privilegios</find>
-      <find>what</find>
-      <find>http</find>
-      <find>fonts</find>
-      <find>testimonial-area</find>
-      <find>class=&quot;navbar-toggle&quot;</find>
-      <find>navbar-collapse collapse</find>
-      <find>@</find>
-      <find>index</find>
-      <find>inicio</find>
-      <find>Nuestros Clientes</find>
-      <find>col-md-12</find>
-      <find>Promoción 1</find>
-      <find>Cirugía Oral Y Maxilofacia</find>
-      <find>smooth-menu</find>
-      <find>Nosot</find>
-      <find>Nosotros</find>
-      <find>promociones</find>
-      <find>col-md-4 col-sm-6 col-xs-12 no-pad</find>
-      <find>img-responsive</find>
-      <find>from_name</find>
-      <find>YTplayer js</find>
-      <find>&lt;!--css ninja--&gt;</find>
-      <find>Promociones del Mes</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -119,7 +86,7 @@
       <workItem from="1551072216829" duration="5545000" />
       <workItem from="1551489240106" duration="3406000" />
       <workItem from="1551547906030" duration="3627000" />
-      <workItem from="1581230622640" duration="59000" />
+      <workItem from="1581230622640" duration="697000" />
     </task>
     <servers />
   </component>
